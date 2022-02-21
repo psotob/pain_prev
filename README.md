@@ -1,6 +1,10 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
+*v. 1.0.0* (Pre-released)
+
+[![DOI](https://zenodo.org/badge/461874184.svg)](https://zenodo.org/badge/latestdoi/461874184)
+
 # pain_prev
 
 <!-- badges: start -->
@@ -41,3 +45,8 @@ repository.
 -   `Table`:
 
     -   `Finaltable.docx`: Tables 1-5 presented in the manuscript.
+
+### How to cite
+
+> **Cite**: Soto-Becerra P. pain_prev \[Internet\]. Zenodo; 2022 \[cited
+> 2022 Feb 21\]. Available from: <https://zenodo.org/record/6204770>
