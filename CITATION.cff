@@ -1,0 +1,15 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: pain_prev
+message: >-
+  If you use code of this GitHub repo, please cite it
+  using the metadata from this file.
+type: software
+authors:
+  - given-names: Percy
+    email: percys1991@gmail.com
+    name-particle: Percy
+    family-names: Soto-Becerra
+    name-suffix: P
