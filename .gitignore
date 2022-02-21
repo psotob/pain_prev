@@ -1,0 +1,9 @@
+/Data
+/Documents
+
+*.RData
+*.Rhistory
+*.rds
+*.RDS
+*.sav
+*.SAV
