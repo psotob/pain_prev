@@ -11,7 +11,7 @@ knitr::opts_chunk$set(
 )
 ```
 
-_v. 1.0.0_ (Pre-released) 
+_v. 1.0.2_ (Pre-released) 
 
 [![DOI](https://zenodo.org/badge/461874184.svg)](https://zenodo.org/badge/latestdoi/461874184)
 
@@ -52,4 +52,4 @@ The survey questionnaire and anonymised data that support the findings of this s
 
 ### How to cite
 
-> __Cite__: Soto-Becerra P. pain_prev [Internet]. Zenodo; 2022 [cited 2022 Feb 21]. Available from: https://zenodo.org/record/6204770
+> __Cite__: Soto-Becerra P. pain_prev [Internet]. Zenodo; 2022 [cited 2022 Feb 21]. Available from: 10.5281/zenodo.6204769
