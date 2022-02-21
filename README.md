@@ -1,7 +1,7 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-*v. 1.0.0* (Pre-released)
+*v. 1.0.3* (Pre-released)
 
 [![DOI](https://zenodo.org/badge/461874184.svg)](https://zenodo.org/badge/latestdoi/461874184)
 
@@ -49,4 +49,4 @@ repository.
 ### How to cite
 
 > **Cite**: Soto-Becerra P. pain_prev \[Internet\]. Zenodo; 2022 \[cited
-> 2022 Feb 21\]. Available from: <https://zenodo.org/record/6204770>
+> 2022 Feb 21\]. Available from: 10.5281/zenodo.6204769
