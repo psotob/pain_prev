@@ -50,7 +50,8 @@ p_load(dplyr,
        purrr, 
        formattable, 
        gdtools, 
-       officer) # Loading packages
+       officer, 
+       officedown) # Loading packages
 
 # Session Info inspection
 sessionInfo()
@@ -372,11 +373,20 @@ table3 <-
     values = "n: Observations estimated by weighting real observations so that sums could differ up to ± 1 due to approximation error; %: column weighted percentage; mo: months; IQR: interquartile range; NA: Does not apply."
   ) %>% 
   footnote(
+    i = 1, j = 2:3, 
+    value = as_paragraph(
+      c("11 participants (weighted n = 10) did not response data to determine chronicity of pain."
+      )
+    ), 
+    ref_symbols = c("1"), 
+    part = "header"
+  ) %>% 
+  footnote(
     i = 1:2, j = 4, 
     value = as_paragraph(
       c("Unless otherwise stated, Chi-square test with Rao and Scott second-order correction.")
     ), 
-    ref_symbols = c("1"), 
+    ref_symbols = c("2"), 
     part = "header"
   ) %>% 
   footnote(
@@ -385,7 +395,7 @@ table3 <-
       c("Wilcoxon signed-rank test for complex samples."
       )
     ), 
-    ref_symbols = c("2"), 
+    ref_symbols = c("3"), 
     part = "body"
   ) %>% 
   set_caption(
@@ -449,11 +459,19 @@ table4 <-
     values = "n: Observations estimated by weighting real observations so that sums could differ up to ± 1 due to approximation error; %: column weighted percentage; NRS: Numerical rating scale."
   ) %>% 
   footnote(
+    i = 1, j = 2:4, 
+    value = as_paragraph(
+      c("Five participants had missing data in quality of life score")
+    ), 
+    ref_symbols = c("1"), 
+    part = "header"
+  ) %>% 
+  footnote(
     i = 1:2, j = 5, 
     value = as_paragraph(
       c("Unless otherwise stated, Chi-square test with Rao and Scott second-order correction.")
     ), 
-    ref_symbols = c("1"), 
+    ref_symbols = c("2"), 
     part = "header"
   ) %>% 
   set_caption(
@@ -527,9 +545,12 @@ table5 <-
   ) %>% 
   bold(bold = TRUE, part = "header") %>%
   font(fontname = "Calibri", part = "all") %>% 
-  fontsize(size = 9, part = "all") 
+  fontsize(size = 9, part = "all")
 
 table5
+
+#*******************************************************************************
+# Creating word with reproducible tables
 
 doc <- read_docx()
 

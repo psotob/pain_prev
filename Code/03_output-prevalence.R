@@ -64,6 +64,6 @@ load("Data/Derived/data_final.RData")
 
 
 ## Prevalence of pain, chronic pain and acute pain:
-svyciprop(formula = I(dolor3m == "Sí") ~ 1, design = svydes, level = 0.95)
-svyciprop(formula = I(dolor_cronic == 1) ~ 1, design = svydes, level = 0.95)
-svyciprop(formula = I(dolor_acute == 1) ~ 1, design = svydes, level = 0.95)
+svyciprop(formula = I(pain3m == "Yes") ~ 1, design = svydes, level = 0.95)
+svyciprop(formula = I(pain_cronic == 1) ~ 1, design = svydes, level = 0.95)
+svyciprop(formula = I(pain_acute == 1) ~ 1, design = svydes, level = 0.95)
