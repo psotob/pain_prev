@@ -1,7 +1,7 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# covid_seroprev
+# pain_prev
 
 <!-- badges: start -->
 <!-- badges: end -->
