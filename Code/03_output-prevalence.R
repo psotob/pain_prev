@@ -67,3 +67,10 @@ load("Data/Derived/data_final.RData")
 svyciprop(formula = I(pain3m == "Yes") ~ 1, design = svydes, level = 0.95)
 svyciprop(formula = I(pain_cronic == 1) ~ 1, design = svydes, level = 0.95)
 svyciprop(formula = I(pain_acute == 1) ~ 1, design = svydes, level = 0.95)
+
+## Prevalence of received treatment
+svyciprop(formula = I(tto_medic1 == 1) ~ 1, design = svydes, level = 0.95)
+svyciprop(formula = I(tto_none1 == 1) ~ 1, design = svydes, level = 0.95)
+svyciprop(formula = I(tto_physio1 == 1) ~ 1, design = svydes, level = 0.95)
+svyciprop(formula = I(tto_surg1 == 1) ~ 1, design = svydes, level = 0.95)
+svyciprop(formula = I(tto_remed_alter == 1) ~ 1, design = svydes, level = 0.95)
